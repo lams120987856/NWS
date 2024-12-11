@@ -65,6 +65,19 @@
             width: 100%;
             bottom: 0;
         }
+        .scroll-btn {
+            background-color: #8A2BE2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .scroll-btn:hover {
+            background-color: #5F4B8B;
+        }
     </style>
 </head>
 <body>
@@ -72,6 +85,8 @@
 <header>
     <h1>Le Milieu de l'Esthétique</h1>
     <p>Un monde dédié à la beauté et au bien-être</p>
+    <!-- Bouton pour défiler vers l'article -->
+    <button class="scroll-btn" onclick="scrollToArticle()">Découvrir l'impact du maquillage bio</button>
 </header>
 
 <nav>
@@ -95,34 +110,4 @@
             <li><strong>Soins du visage :</strong> nettoyages, gommages, masques et soins anti-âge.</li>
             <li><strong>Soins corporels :</strong> massages, épilations, traitements anti-cellulite.</li>
             <li><strong>Maquillage permanent :</strong> tatouage des sourcils, eyeliner, lèvres.</li>
-            <li><strong>Soins capillaires :</strong> coupe, coloration, coiffure et traitements réparateurs.</li>
-        </ul>
-    </section>
-
-    <section id="tendances">
-        <h2>Les Tendances du Moment</h2>
-        <p>Le milieu de l'esthétique est influencé par de nombreuses tendances qui évoluent au fil des années. Voici quelques-unes des tendances actuelles :</p>
-        <ul>
-            <li><strong>La beauté naturelle :</strong> de plus en plus de personnes privilégient un look naturel, avec des soins minimalistes et des produits cosmétiques bio ou vegan.</li>
-            <li><strong>Le bien-être mental et physique :</strong> les soins esthétiques ne se limitent plus à l'apparence, mais incluent également des approches pour améliorer le bien-être global, comme la relaxation ou la gestion du stress.</li>
-            <li><strong>Les soins personnalisés :</strong> grâce aux avancées technologiques, de nombreux instituts proposent des soins sur mesure, adaptés aux besoins spécifiques de chaque client.</li>
-        </ul>
-    </section>
-
-    <section id="innovation">
-        <h2>Innovation et Technologies</h2>
-        <p>Le milieu de l'esthétique se distingue également par l'innovation technologique, avec de nouvelles méthodes de soins de plus en plus performantes :</p>
-        <ul>
-            <li><strong>La cryolipolyse :</strong> une technique non invasive pour éliminer la graisse localisée par le froid.</li>
-            <li><strong>Les lasers esthétiques :</strong> utilisés pour des traitements comme l'épilation, le rajeunissement de la peau ou la réduction des imperfections.</li>
-            <li><strong>Les soins à la lumière LED :</strong> pour traiter divers problèmes de peau, comme l'acné, le vieillissement ou les taches pigmentaires.</li>
-        </ul>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2024 Le Milieu de l'Esthétique | Tous droits réservés</p>
-</footer>
-
-</body>
-</html>
+            <li><strong>
